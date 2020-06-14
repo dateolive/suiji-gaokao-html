@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>梦独吟项目</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="wrapper">
+ <div class="book">
+ <div class="book__cover">
+   <div class="header-image"><div class="overlay"></div></div>
+   <div class="title-wrap">
+     <h1 class="article-title">高考祝福</h1>
+   </div>
+   <p class="book__cover-exerpt">
+      
+       点击收下你的高考祝福!<br><br>
+
+     <span class="social">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-instagram"></i>
+     </span>
+ 
+   </p>
+ 
+ </div>
+   <div class="book__content">
+     <p><span class="drop-cap">#</span>
+        <script src="你的api.php"></script>   
+   </div>
+ </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+ "use strict";
+
+ $('.book').on('click', function () {
+   $(this).toggleClass('book--expanded');
+ });
+    
+</script>
+</body>
+</html>
